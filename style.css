@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(197, 240, 188);
+    font-family: 'Oswald';
+    text-align: center;
+}
+
+input {
+    margin-left: 10x;
+    margin-right: 10px;
+    margin-top: 25px;
+    background-color: #e3e0e8ff;
+    border-radius: 12px;
+    
+    text-align: left;
+    font-family: "Oswald";
+    font-size: 4vh;
+    padding: 10px 3vw;
+}
+
+#cipherNumInput {
+    margin-bottom:30px;
+    font-size: 3vh;
+    text-align: center;
+    padding: 10px .5vw;
+}
+
+h1 {
+    font-size: 5vh;
+}
+
+h2 {
+    font-size: 3vh;
+}
+
+

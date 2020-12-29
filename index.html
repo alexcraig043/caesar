@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Caesar Salad</title>
+</head>
+<body>
+    
+
+    <header>
+        <h1 id = "title">It's the Caesar Salad Caesar Cipher!</h1>
+    </header>
+
+    <div>
+        <h2>Enter Your Secret Number:</h2>
+        <input type="text" onchange="updateCipherNum()" placeholder="Cipher Number: " id="cipherNumInput">
+    </div>
+
+    <h2>Enter What You Want to Encode Below!</h2>
+
+    <div>
+        <input type="text" onchange="encode()" placeholder="Plain Text" id="plainText">
+        <input type="text" onchange="decode()" placeholder="Encoded Text" id="codeText">
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
